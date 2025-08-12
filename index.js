@@ -17,7 +17,7 @@ const port = process.env.PORT || 8000;
 // config
 // middleware
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://marnstack-vista-project.web.app"],
+  origin: ["http://localhost:5173","grandview-hotel-management.firebaseapp.com"],
   credentials: true,
   optionSuccessStatus: 200,
 };
